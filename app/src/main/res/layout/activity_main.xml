@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainActivity_contenedor"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ma.interfacesdeusuario.MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="50"
+        android:layout_height="100dp"
+        android:id="@+id/celdalistview_imagen"
+        tools:src="@drawable/donut"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="50"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Version 1.0"
+            android:id="@+id/celdalistview_textoArriba"
+            android:textSize="25sp"
+            />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            tools:text="Froyo "
+            android:id="@+id/celdalistview_textoAbajo"
+            android:textSize="25sp"
+
+            android:layout_weight="0.13" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
