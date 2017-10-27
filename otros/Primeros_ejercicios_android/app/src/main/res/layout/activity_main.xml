@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ma.primeros_ejercicios_android.MainActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ejercicio1"
+        android:onClick="lanzar_ejercicio1"
+        tools:layout_editor_absoluteY="6dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cuenta Ganado"
+        android:onClick="lanzar_ejercicio2"
+        tools:layout_editor_absoluteY="6dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crash"
+        android:onClick="lanzar_jamassabre"
+        tools:layout_editor_absoluteY="6dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relative Y Bundle"
+        android:onClick="lanzar_jamassabre"
+        tools:layout_editor_absoluteY="6dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:onClick="relativeYbundle"
+        />
+
+
+
+</LinearLayout>
